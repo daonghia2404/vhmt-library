@@ -461,12 +461,14 @@ const navigation = {
     this.dropdownCategories();
   },
   dropdownCategories: function () {
-    const wrapper = document.querySelector(".CategoriesDropdown");
-    const wrapperBtn = wrapper.querySelector(".CategoriesDropdown-wrapper");
+    const wrapper = document.querySelector(".CategoriesDropdown.event-click");
+    if (wrapper) {
+      const wrapperBtn = wrapper.querySelector(".CategoriesDropdown-wrapper");
 
-    wrapperBtn?.addEventListener("click", () => {
-      wrapper.classList.toggle("active");
-    });
+      wrapperBtn?.addEventListener("click", () => {
+        wrapper.classList.toggle("active");
+      });
+    }
   },
   dropdownSubmenu: function () {
     const navigationItems = document.querySelectorAll(".Navigation-list-item");
