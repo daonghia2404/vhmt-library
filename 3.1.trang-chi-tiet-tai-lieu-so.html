@@ -54,6 +54,11 @@
                 <div class="Button-control-icon"> <img src="./assets/icons/icon-user-circle-fill-green.svg" alt=""></div>
               </button>
             </div>
+            <div class="Button middle outline-primary only-icon">
+              <button class="Button-control flex items-center justify-center" type="button">
+                <div class="Button-control-icon"> <img src="./assets/icons/icon-cart-fill-green.svg" alt=""></div>
+              </button>
+            </div>
             <div class="Button NavigationMobile-open middle outline-primary only-icon">
               <button class="Button-control flex items-center justify-center" type="button">
                 <div class="Button-control-icon"> <img src="./assets/icons/icon-bars-green.svg" alt=""></div>
@@ -1000,12 +1005,14 @@
                 <div class="CardWithTitle-header-title flex items-center">
                   <div class="CardWithTitle-header-title-icon"><img src="./assets/icons/icon-bookopen-green.svg" alt=""></div>SÁCH HAY CÙNG CHỦ ĐỀ
                 </div>
-                <div class="CardWithTitle-header-see-all flex items-center">
-                   Xem toàn bộ<svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.8376 3.62599C5.06541 3.39819 5.43475 3.39819 5.66256 3.62599L9.16256 7.12599C9.39037 7.3538 9.39037 7.72315 9.16256 7.95095L5.66256 11.451C5.43475 11.6788 5.06541 11.6788 4.8376 11.451C4.6098 11.2231 4.6098 10.8538 4.8376 10.626L7.92512 7.53847L4.8376 4.45095C4.6098 4.22315 4.6098 3.8538 4.8376 3.62599Z" fill="#B9B9B9"/></svg></div>
+                <div class="CardWithTitle-header-owl-arrow flex items-center"> 
+                  <div class="CardWithTitle-header-owl-arrow-btn owl-arrow-left"><svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.08893 0.448301C6.76349 0.122864 6.23586 0.122864 5.91042 0.448301L0.910419 5.4483C0.584982 5.77374 0.584982 6.30138 0.910419 6.62681L5.91042 11.6268C6.23586 11.9522 6.76349 11.9522 7.08893 11.6268C7.41437 11.3014 7.41437 10.7737 7.08893 10.4483L2.67819 6.03756L7.08893 1.62681C7.41437 1.30138 7.41437 0.773738 7.08893 0.448301Z" fill="white"/></svg></div>
+                  <div class="CardWithTitle-header-owl-arrow-btn owl-arrow-right"><svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.91107 0.448301C1.23651 0.122864 1.76414 0.122864 2.08958 0.448301L7.08958 5.4483C7.41502 5.77374 7.41502 6.30138 7.08958 6.62681L2.08958 11.6268C1.76414 11.9522 1.23651 11.9522 0.91107 11.6268C0.585633 11.3014 0.585633 10.7737 0.91107 10.4483L5.32181 6.03756L0.91107 1.62681C0.585633 1.30138 0.585633 0.773738 0.91107 0.448301Z" fill="white"/></svg></div>
+                </div>
               </div>
               <div class="CardWithTitle-body">
-                <div class="CardWithTitle-books-list flex flex-wrap">
-                  <div class="CardWithTitle-books-list-item small">
+                <div class="owl-carousel CardWithTitle-carousel">
+                  <div class="item"> 
                     <div class="BookBlock vertical book">
                       <div class="BookBlock-image"> <a href="#"><img src="./assets/images/image-book-block.png" alt=""></a>
                         <div class="BookBlock-image-hover"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.16699 2.00016C1.16699 1.63197 1.46547 1.3335 1.83366 1.3335H5.83366C6.71771 1.3335 7.56556 1.68469 8.19068 2.30981C8.8158 2.93493 9.16699 3.78277 9.16699 4.66683V14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002C7.83366 13.6465 7.69318 13.3074 7.44313 13.0574C7.19309 12.8073 6.85395 12.6668 6.50033 12.6668H1.83366C1.46547 12.6668 1.16699 12.3684 1.16699 12.0002V2.00016ZM7.83366 11.6908V4.66683C7.83366 4.1364 7.62294 3.62769 7.24787 3.25262C6.8728 2.87754 6.36409 2.66683 5.83366 2.66683H2.50033V11.3335H6.50033C6.97248 11.3335 7.43172 11.4587 7.83366 11.6908Z" fill="#555555"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.80997 2.30981C9.43509 1.68469 10.2829 1.3335 11.167 1.3335H15.167C15.5352 1.3335 15.8337 1.63197 15.8337 2.00016V12.0002C15.8337 12.3684 15.5352 12.6668 15.167 12.6668H10.5003C10.1467 12.6668 9.80756 12.8073 9.55752 13.0574C9.30747 13.3074 9.16699 13.6465 9.16699 14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002V4.66683C7.83366 3.78277 8.18485 2.93493 8.80997 2.30981ZM9.16699 11.6908C9.56893 11.4587 10.0282 11.3335 10.5003 11.3335H14.5003V2.66683H11.167C10.6366 2.66683 10.1279 2.87754 9.75278 3.25262C9.37771 3.62769 9.16699 4.1364 9.16699 4.66683V11.6908Z" fill="#555555"/></svg></div>
@@ -1015,7 +1022,7 @@
                       <div class="BookBlock-author">Tác giả</div>
                     </div>
                   </div>
-                  <div class="CardWithTitle-books-list-item small">
+                  <div class="item"> 
                     <div class="BookBlock vertical book">
                       <div class="BookBlock-image"> <a href="#"><img src="./assets/images/image-book-block-square.png" alt=""></a>
                         <div class="BookBlock-image-hover"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.16699 2.00016C1.16699 1.63197 1.46547 1.3335 1.83366 1.3335H5.83366C6.71771 1.3335 7.56556 1.68469 8.19068 2.30981C8.8158 2.93493 9.16699 3.78277 9.16699 4.66683V14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002C7.83366 13.6465 7.69318 13.3074 7.44313 13.0574C7.19309 12.8073 6.85395 12.6668 6.50033 12.6668H1.83366C1.46547 12.6668 1.16699 12.3684 1.16699 12.0002V2.00016ZM7.83366 11.6908V4.66683C7.83366 4.1364 7.62294 3.62769 7.24787 3.25262C6.8728 2.87754 6.36409 2.66683 5.83366 2.66683H2.50033V11.3335H6.50033C6.97248 11.3335 7.43172 11.4587 7.83366 11.6908Z" fill="#555555"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.80997 2.30981C9.43509 1.68469 10.2829 1.3335 11.167 1.3335H15.167C15.5352 1.3335 15.8337 1.63197 15.8337 2.00016V12.0002C15.8337 12.3684 15.5352 12.6668 15.167 12.6668H10.5003C10.1467 12.6668 9.80756 12.8073 9.55752 13.0574C9.30747 13.3074 9.16699 13.6465 9.16699 14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002V4.66683C7.83366 3.78277 8.18485 2.93493 8.80997 2.30981ZM9.16699 11.6908C9.56893 11.4587 10.0282 11.3335 10.5003 11.3335H14.5003V2.66683H11.167C10.6366 2.66683 10.1279 2.87754 9.75278 3.25262C9.37771 3.62769 9.16699 4.1364 9.16699 4.66683V11.6908Z" fill="#555555"/></svg></div>
@@ -1025,7 +1032,7 @@
                       <div class="BookBlock-author">Tác giả</div>
                     </div>
                   </div>
-                  <div class="CardWithTitle-books-list-item small">
+                  <div class="item"> 
                     <div class="BookBlock vertical book">
                       <div class="BookBlock-image"> <a href="#"><img src="./assets/images/image-book-block.png" alt=""></a>
                         <div class="BookBlock-image-hover"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.16699 2.00016C1.16699 1.63197 1.46547 1.3335 1.83366 1.3335H5.83366C6.71771 1.3335 7.56556 1.68469 8.19068 2.30981C8.8158 2.93493 9.16699 3.78277 9.16699 4.66683V14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002C7.83366 13.6465 7.69318 13.3074 7.44313 13.0574C7.19309 12.8073 6.85395 12.6668 6.50033 12.6668H1.83366C1.46547 12.6668 1.16699 12.3684 1.16699 12.0002V2.00016ZM7.83366 11.6908V4.66683C7.83366 4.1364 7.62294 3.62769 7.24787 3.25262C6.8728 2.87754 6.36409 2.66683 5.83366 2.66683H2.50033V11.3335H6.50033C6.97248 11.3335 7.43172 11.4587 7.83366 11.6908Z" fill="#555555"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.80997 2.30981C9.43509 1.68469 10.2829 1.3335 11.167 1.3335H15.167C15.5352 1.3335 15.8337 1.63197 15.8337 2.00016V12.0002C15.8337 12.3684 15.5352 12.6668 15.167 12.6668H10.5003C10.1467 12.6668 9.80756 12.8073 9.55752 13.0574C9.30747 13.3074 9.16699 13.6465 9.16699 14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002V4.66683C7.83366 3.78277 8.18485 2.93493 8.80997 2.30981ZM9.16699 11.6908C9.56893 11.4587 10.0282 11.3335 10.5003 11.3335H14.5003V2.66683H11.167C10.6366 2.66683 10.1279 2.87754 9.75278 3.25262C9.37771 3.62769 9.16699 4.1364 9.16699 4.66683V11.6908Z" fill="#555555"/></svg></div>
@@ -1035,7 +1042,7 @@
                       <div class="BookBlock-author">Tác giả</div>
                     </div>
                   </div>
-                  <div class="CardWithTitle-books-list-item small">
+                  <div class="item"> 
                     <div class="BookBlock vertical book">
                       <div class="BookBlock-image"> <a href="#"><img src="./assets/images/image-book-block-square.png" alt=""></a>
                         <div class="BookBlock-image-hover"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.16699 2.00016C1.16699 1.63197 1.46547 1.3335 1.83366 1.3335H5.83366C6.71771 1.3335 7.56556 1.68469 8.19068 2.30981C8.8158 2.93493 9.16699 3.78277 9.16699 4.66683V14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002C7.83366 13.6465 7.69318 13.3074 7.44313 13.0574C7.19309 12.8073 6.85395 12.6668 6.50033 12.6668H1.83366C1.46547 12.6668 1.16699 12.3684 1.16699 12.0002V2.00016ZM7.83366 11.6908V4.66683C7.83366 4.1364 7.62294 3.62769 7.24787 3.25262C6.8728 2.87754 6.36409 2.66683 5.83366 2.66683H2.50033V11.3335H6.50033C6.97248 11.3335 7.43172 11.4587 7.83366 11.6908Z" fill="#555555"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.80997 2.30981C9.43509 1.68469 10.2829 1.3335 11.167 1.3335H15.167C15.5352 1.3335 15.8337 1.63197 15.8337 2.00016V12.0002C15.8337 12.3684 15.5352 12.6668 15.167 12.6668H10.5003C10.1467 12.6668 9.80756 12.8073 9.55752 13.0574C9.30747 13.3074 9.16699 13.6465 9.16699 14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002V4.66683C7.83366 3.78277 8.18485 2.93493 8.80997 2.30981ZM9.16699 11.6908C9.56893 11.4587 10.0282 11.3335 10.5003 11.3335H14.5003V2.66683H11.167C10.6366 2.66683 10.1279 2.87754 9.75278 3.25262C9.37771 3.62769 9.16699 4.1364 9.16699 4.66683V11.6908Z" fill="#555555"/></svg></div>
@@ -1045,7 +1052,7 @@
                       <div class="BookBlock-author">Tác giả</div>
                     </div>
                   </div>
-                  <div class="CardWithTitle-books-list-item small">
+                  <div class="item"> 
                     <div class="BookBlock vertical book">
                       <div class="BookBlock-image"> <a href="#"><img src="./assets/images/image-book-block.png" alt=""></a>
                         <div class="BookBlock-image-hover"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.16699 2.00016C1.16699 1.63197 1.46547 1.3335 1.83366 1.3335H5.83366C6.71771 1.3335 7.56556 1.68469 8.19068 2.30981C8.8158 2.93493 9.16699 3.78277 9.16699 4.66683V14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002C7.83366 13.6465 7.69318 13.3074 7.44313 13.0574C7.19309 12.8073 6.85395 12.6668 6.50033 12.6668H1.83366C1.46547 12.6668 1.16699 12.3684 1.16699 12.0002V2.00016ZM7.83366 11.6908V4.66683C7.83366 4.1364 7.62294 3.62769 7.24787 3.25262C6.8728 2.87754 6.36409 2.66683 5.83366 2.66683H2.50033V11.3335H6.50033C6.97248 11.3335 7.43172 11.4587 7.83366 11.6908Z" fill="#555555"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.80997 2.30981C9.43509 1.68469 10.2829 1.3335 11.167 1.3335H15.167C15.5352 1.3335 15.8337 1.63197 15.8337 2.00016V12.0002C15.8337 12.3684 15.5352 12.6668 15.167 12.6668H10.5003C10.1467 12.6668 9.80756 12.8073 9.55752 13.0574C9.30747 13.3074 9.16699 13.6465 9.16699 14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002V4.66683C7.83366 3.78277 8.18485 2.93493 8.80997 2.30981ZM9.16699 11.6908C9.56893 11.4587 10.0282 11.3335 10.5003 11.3335H14.5003V2.66683H11.167C10.6366 2.66683 10.1279 2.87754 9.75278 3.25262C9.37771 3.62769 9.16699 4.1364 9.16699 4.66683V11.6908Z" fill="#555555"/></svg></div>
@@ -1055,487 +1062,595 @@
                       <div class="BookBlock-author">Tác giả</div>
                     </div>
                   </div>
+                  <div class="item"> 
+                    <div class="BookBlock vertical book">
+                      <div class="BookBlock-image"> <a href="#"><img src="./assets/images/image-book-block-square.png" alt=""></a>
+                        <div class="BookBlock-image-hover"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.16699 2.00016C1.16699 1.63197 1.46547 1.3335 1.83366 1.3335H5.83366C6.71771 1.3335 7.56556 1.68469 8.19068 2.30981C8.8158 2.93493 9.16699 3.78277 9.16699 4.66683V14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002C7.83366 13.6465 7.69318 13.3074 7.44313 13.0574C7.19309 12.8073 6.85395 12.6668 6.50033 12.6668H1.83366C1.46547 12.6668 1.16699 12.3684 1.16699 12.0002V2.00016ZM7.83366 11.6908V4.66683C7.83366 4.1364 7.62294 3.62769 7.24787 3.25262C6.8728 2.87754 6.36409 2.66683 5.83366 2.66683H2.50033V11.3335H6.50033C6.97248 11.3335 7.43172 11.4587 7.83366 11.6908Z" fill="#555555"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.80997 2.30981C9.43509 1.68469 10.2829 1.3335 11.167 1.3335H15.167C15.5352 1.3335 15.8337 1.63197 15.8337 2.00016V12.0002C15.8337 12.3684 15.5352 12.6668 15.167 12.6668H10.5003C10.1467 12.6668 9.80756 12.8073 9.55752 13.0574C9.30747 13.3074 9.16699 13.6465 9.16699 14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002V4.66683C7.83366 3.78277 8.18485 2.93493 8.80997 2.30981ZM9.16699 11.6908C9.56893 11.4587 10.0282 11.3335 10.5003 11.3335H14.5003V2.66683H11.167C10.6366 2.66683 10.1279 2.87754 9.75278 3.25262C9.37771 3.62769 9.16699 4.1364 9.16699 4.66683V11.6908Z" fill="#555555"/></svg></div>
+                      </div>
+                      <div class="BookBlock-title"><a href="#">Giáo Trình Pháp Luật Kinh Tế </a></div>
+                      <div class="BookBlock-rate flex justify-center"> <img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""></div>
+                      <div class="BookBlock-author">Tác giả</div>
+                    </div>
+                  </div>
+                  <div class="item"> 
+                    <div class="BookBlock vertical book">
+                      <div class="BookBlock-image"> <a href="#"><img src="./assets/images/image-book-block.png" alt=""></a>
+                        <div class="BookBlock-image-hover"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.16699 2.00016C1.16699 1.63197 1.46547 1.3335 1.83366 1.3335H5.83366C6.71771 1.3335 7.56556 1.68469 8.19068 2.30981C8.8158 2.93493 9.16699 3.78277 9.16699 4.66683V14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002C7.83366 13.6465 7.69318 13.3074 7.44313 13.0574C7.19309 12.8073 6.85395 12.6668 6.50033 12.6668H1.83366C1.46547 12.6668 1.16699 12.3684 1.16699 12.0002V2.00016ZM7.83366 11.6908V4.66683C7.83366 4.1364 7.62294 3.62769 7.24787 3.25262C6.8728 2.87754 6.36409 2.66683 5.83366 2.66683H2.50033V11.3335H6.50033C6.97248 11.3335 7.43172 11.4587 7.83366 11.6908Z" fill="#555555"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.80997 2.30981C9.43509 1.68469 10.2829 1.3335 11.167 1.3335H15.167C15.5352 1.3335 15.8337 1.63197 15.8337 2.00016V12.0002C15.8337 12.3684 15.5352 12.6668 15.167 12.6668H10.5003C10.1467 12.6668 9.80756 12.8073 9.55752 13.0574C9.30747 13.3074 9.16699 13.6465 9.16699 14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002V4.66683C7.83366 3.78277 8.18485 2.93493 8.80997 2.30981ZM9.16699 11.6908C9.56893 11.4587 10.0282 11.3335 10.5003 11.3335H14.5003V2.66683H11.167C10.6366 2.66683 10.1279 2.87754 9.75278 3.25262C9.37771 3.62769 9.16699 4.1364 9.16699 4.66683V11.6908Z" fill="#555555"/></svg></div>
+                      </div>
+                      <div class="BookBlock-title"><a href="#">Giáo trình Pháp luật đại cương</a></div>
+                      <div class="BookBlock-rate flex justify-center"> <img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""></div>
+                      <div class="BookBlock-author">Tác giả</div>
+                    </div>
+                  </div>
+                  <div class="item"> 
+                    <div class="BookBlock vertical book">
+                      <div class="BookBlock-image"> <a href="#"><img src="./assets/images/image-book-block-square.png" alt=""></a>
+                        <div class="BookBlock-image-hover"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.16699 2.00016C1.16699 1.63197 1.46547 1.3335 1.83366 1.3335H5.83366C6.71771 1.3335 7.56556 1.68469 8.19068 2.30981C8.8158 2.93493 9.16699 3.78277 9.16699 4.66683V14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002C7.83366 13.6465 7.69318 13.3074 7.44313 13.0574C7.19309 12.8073 6.85395 12.6668 6.50033 12.6668H1.83366C1.46547 12.6668 1.16699 12.3684 1.16699 12.0002V2.00016ZM7.83366 11.6908V4.66683C7.83366 4.1364 7.62294 3.62769 7.24787 3.25262C6.8728 2.87754 6.36409 2.66683 5.83366 2.66683H2.50033V11.3335H6.50033C6.97248 11.3335 7.43172 11.4587 7.83366 11.6908Z" fill="#555555"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.80997 2.30981C9.43509 1.68469 10.2829 1.3335 11.167 1.3335H15.167C15.5352 1.3335 15.8337 1.63197 15.8337 2.00016V12.0002C15.8337 12.3684 15.5352 12.6668 15.167 12.6668H10.5003C10.1467 12.6668 9.80756 12.8073 9.55752 13.0574C9.30747 13.3074 9.16699 13.6465 9.16699 14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002V4.66683C7.83366 3.78277 8.18485 2.93493 8.80997 2.30981ZM9.16699 11.6908C9.56893 11.4587 10.0282 11.3335 10.5003 11.3335H14.5003V2.66683H11.167C10.6366 2.66683 10.1279 2.87754 9.75278 3.25262C9.37771 3.62769 9.16699 4.1364 9.16699 4.66683V11.6908Z" fill="#555555"/></svg></div>
+                      </div>
+                      <div class="BookBlock-title"><a href="#">Giáo Trình - Lịch Sử Kinh Tế</a></div>
+                      <div class="BookBlock-rate flex justify-center"> <img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""></div>
+                      <div class="BookBlock-author">Tác giả</div>
+                    </div>
+                  </div>
+                  <div class="item"> 
+                    <div class="BookBlock vertical book">
+                      <div class="BookBlock-image"> <a href="#"><img src="./assets/images/image-book-block.png" alt=""></a>
+                        <div class="BookBlock-image-hover"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.16699 2.00016C1.16699 1.63197 1.46547 1.3335 1.83366 1.3335H5.83366C6.71771 1.3335 7.56556 1.68469 8.19068 2.30981C8.8158 2.93493 9.16699 3.78277 9.16699 4.66683V14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002C7.83366 13.6465 7.69318 13.3074 7.44313 13.0574C7.19309 12.8073 6.85395 12.6668 6.50033 12.6668H1.83366C1.46547 12.6668 1.16699 12.3684 1.16699 12.0002V2.00016ZM7.83366 11.6908V4.66683C7.83366 4.1364 7.62294 3.62769 7.24787 3.25262C6.8728 2.87754 6.36409 2.66683 5.83366 2.66683H2.50033V11.3335H6.50033C6.97248 11.3335 7.43172 11.4587 7.83366 11.6908Z" fill="#555555"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.80997 2.30981C9.43509 1.68469 10.2829 1.3335 11.167 1.3335H15.167C15.5352 1.3335 15.8337 1.63197 15.8337 2.00016V12.0002C15.8337 12.3684 15.5352 12.6668 15.167 12.6668H10.5003C10.1467 12.6668 9.80756 12.8073 9.55752 13.0574C9.30747 13.3074 9.16699 13.6465 9.16699 14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002V4.66683C7.83366 3.78277 8.18485 2.93493 8.80997 2.30981ZM9.16699 11.6908C9.56893 11.4587 10.0282 11.3335 10.5003 11.3335H14.5003V2.66683H11.167C10.6366 2.66683 10.1279 2.87754 9.75278 3.25262C9.37771 3.62769 9.16699 4.1364 9.16699 4.66683V11.6908Z" fill="#555555"/></svg></div>
+                      </div>
+                      <div class="BookBlock-title"><a href="#">Giáo Trình Lý Thuyết Xác Suất và Thống Kê Toán</a></div>
+                      <div class="BookBlock-rate flex justify-center"> <img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""></div>
+                      <div class="BookBlock-author">Tác giả</div>
+                    </div>
+                  </div>
+                  <div class="item"> 
+                    <div class="BookBlock vertical book">
+                      <div class="BookBlock-image"> <a href="#"><img src="./assets/images/image-book-block-square.png" alt=""></a>
+                        <div class="BookBlock-image-hover"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.16699 2.00016C1.16699 1.63197 1.46547 1.3335 1.83366 1.3335H5.83366C6.71771 1.3335 7.56556 1.68469 8.19068 2.30981C8.8158 2.93493 9.16699 3.78277 9.16699 4.66683V14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002C7.83366 13.6465 7.69318 13.3074 7.44313 13.0574C7.19309 12.8073 6.85395 12.6668 6.50033 12.6668H1.83366C1.46547 12.6668 1.16699 12.3684 1.16699 12.0002V2.00016ZM7.83366 11.6908V4.66683C7.83366 4.1364 7.62294 3.62769 7.24787 3.25262C6.8728 2.87754 6.36409 2.66683 5.83366 2.66683H2.50033V11.3335H6.50033C6.97248 11.3335 7.43172 11.4587 7.83366 11.6908Z" fill="#555555"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.80997 2.30981C9.43509 1.68469 10.2829 1.3335 11.167 1.3335H15.167C15.5352 1.3335 15.8337 1.63197 15.8337 2.00016V12.0002C15.8337 12.3684 15.5352 12.6668 15.167 12.6668H10.5003C10.1467 12.6668 9.80756 12.8073 9.55752 13.0574C9.30747 13.3074 9.16699 13.6465 9.16699 14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002V4.66683C7.83366 3.78277 8.18485 2.93493 8.80997 2.30981ZM9.16699 11.6908C9.56893 11.4587 10.0282 11.3335 10.5003 11.3335H14.5003V2.66683H11.167C10.6366 2.66683 10.1279 2.87754 9.75278 3.25262C9.37771 3.62769 9.16699 4.1364 9.16699 4.66683V11.6908Z" fill="#555555"/></svg></div>
+                      </div>
+                      <div class="BookBlock-title"><a href="#">Sách Kinh Tế Học Vi Mô Phần 2</a></div>
+                      <div class="BookBlock-rate flex justify-center"> <img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""></div>
+                      <div class="BookBlock-author">Tác giả</div>
+                    </div>
+                  </div>
+                  <div class="item"> 
+                    <div class="BookBlock vertical book">
+                      <div class="BookBlock-image"> <a href="#"><img src="./assets/images/image-book-block.png" alt=""></a>
+                        <div class="BookBlock-image-hover"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.16699 2.00016C1.16699 1.63197 1.46547 1.3335 1.83366 1.3335H5.83366C6.71771 1.3335 7.56556 1.68469 8.19068 2.30981C8.8158 2.93493 9.16699 3.78277 9.16699 4.66683V14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002C7.83366 13.6465 7.69318 13.3074 7.44313 13.0574C7.19309 12.8073 6.85395 12.6668 6.50033 12.6668H1.83366C1.46547 12.6668 1.16699 12.3684 1.16699 12.0002V2.00016ZM7.83366 11.6908V4.66683C7.83366 4.1364 7.62294 3.62769 7.24787 3.25262C6.8728 2.87754 6.36409 2.66683 5.83366 2.66683H2.50033V11.3335H6.50033C6.97248 11.3335 7.43172 11.4587 7.83366 11.6908Z" fill="#555555"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.80997 2.30981C9.43509 1.68469 10.2829 1.3335 11.167 1.3335H15.167C15.5352 1.3335 15.8337 1.63197 15.8337 2.00016V12.0002C15.8337 12.3684 15.5352 12.6668 15.167 12.6668H10.5003C10.1467 12.6668 9.80756 12.8073 9.55752 13.0574C9.30747 13.3074 9.16699 13.6465 9.16699 14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002V4.66683C7.83366 3.78277 8.18485 2.93493 8.80997 2.30981ZM9.16699 11.6908C9.56893 11.4587 10.0282 11.3335 10.5003 11.3335H14.5003V2.66683H11.167C10.6366 2.66683 10.1279 2.87754 9.75278 3.25262C9.37771 3.62769 9.16699 4.1364 9.16699 4.66683V11.6908Z" fill="#555555"/></svg></div>
+                      </div>
+                      <div class="BookBlock-title"><a href="#">Sách giáo trình thực hành nghiên cứu trong kinh tế </a></div>
+                      <div class="BookBlock-rate flex justify-center"> <img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""></div>
+                      <div class="BookBlock-author">Tác giả</div>
+                    </div>
+                  </div>
+                  <div class="item"> 
+                    <div class="BookBlock vertical book">
+                      <div class="BookBlock-image"> <a href="#"><img src="./assets/images/image-book-block-square.png" alt=""></a>
+                        <div class="BookBlock-image-hover"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.16699 2.00016C1.16699 1.63197 1.46547 1.3335 1.83366 1.3335H5.83366C6.71771 1.3335 7.56556 1.68469 8.19068 2.30981C8.8158 2.93493 9.16699 3.78277 9.16699 4.66683V14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002C7.83366 13.6465 7.69318 13.3074 7.44313 13.0574C7.19309 12.8073 6.85395 12.6668 6.50033 12.6668H1.83366C1.46547 12.6668 1.16699 12.3684 1.16699 12.0002V2.00016ZM7.83366 11.6908V4.66683C7.83366 4.1364 7.62294 3.62769 7.24787 3.25262C6.8728 2.87754 6.36409 2.66683 5.83366 2.66683H2.50033V11.3335H6.50033C6.97248 11.3335 7.43172 11.4587 7.83366 11.6908Z" fill="#555555"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.80997 2.30981C9.43509 1.68469 10.2829 1.3335 11.167 1.3335H15.167C15.5352 1.3335 15.8337 1.63197 15.8337 2.00016V12.0002C15.8337 12.3684 15.5352 12.6668 15.167 12.6668H10.5003C10.1467 12.6668 9.80756 12.8073 9.55752 13.0574C9.30747 13.3074 9.16699 13.6465 9.16699 14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002V4.66683C7.83366 3.78277 8.18485 2.93493 8.80997 2.30981ZM9.16699 11.6908C9.56893 11.4587 10.0282 11.3335 10.5003 11.3335H14.5003V2.66683H11.167C10.6366 2.66683 10.1279 2.87754 9.75278 3.25262C9.37771 3.62769 9.16699 4.1364 9.16699 4.66683V11.6908Z" fill="#555555"/></svg></div>
+                      </div>
+                      <div class="BookBlock-title"><a href="#">Giáo Trình Phân Tích Kinh Doanh</a></div>
+                      <div class="BookBlock-rate flex justify-center"> <img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""></div>
+                      <div class="BookBlock-author">Tác giả</div>
+                    </div>
+                  </div>
+                  <div class="item"> 
+                    <div class="BookBlock vertical book">
+                      <div class="BookBlock-image"> <a href="#"><img src="./assets/images/image-book-block.png" alt=""></a>
+                        <div class="BookBlock-image-hover"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.16699 2.00016C1.16699 1.63197 1.46547 1.3335 1.83366 1.3335H5.83366C6.71771 1.3335 7.56556 1.68469 8.19068 2.30981C8.8158 2.93493 9.16699 3.78277 9.16699 4.66683V14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002C7.83366 13.6465 7.69318 13.3074 7.44313 13.0574C7.19309 12.8073 6.85395 12.6668 6.50033 12.6668H1.83366C1.46547 12.6668 1.16699 12.3684 1.16699 12.0002V2.00016ZM7.83366 11.6908V4.66683C7.83366 4.1364 7.62294 3.62769 7.24787 3.25262C6.8728 2.87754 6.36409 2.66683 5.83366 2.66683H2.50033V11.3335H6.50033C6.97248 11.3335 7.43172 11.4587 7.83366 11.6908Z" fill="#555555"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.80997 2.30981C9.43509 1.68469 10.2829 1.3335 11.167 1.3335H15.167C15.5352 1.3335 15.8337 1.63197 15.8337 2.00016V12.0002C15.8337 12.3684 15.5352 12.6668 15.167 12.6668H10.5003C10.1467 12.6668 9.80756 12.8073 9.55752 13.0574C9.30747 13.3074 9.16699 13.6465 9.16699 14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002V4.66683C7.83366 3.78277 8.18485 2.93493 8.80997 2.30981ZM9.16699 11.6908C9.56893 11.4587 10.0282 11.3335 10.5003 11.3335H14.5003V2.66683H11.167C10.6366 2.66683 10.1279 2.87754 9.75278 3.25262C9.37771 3.62769 9.16699 4.1364 9.16699 4.66683V11.6908Z" fill="#555555"/></svg></div>
+                      </div>
+                      <div class="BookBlock-title"><a href="#">Giáo Trình Xã Hội Học</a></div>
+                      <div class="BookBlock-rate flex justify-center"> <img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""></div>
+                      <div class="BookBlock-author">Tác giả</div>
+                    </div>
+                  </div>
+                  <div class="item"> 
+                    <div class="BookBlock vertical book">
+                      <div class="BookBlock-image"> <a href="#"><img src="./assets/images/image-book-block-square.png" alt=""></a>
+                        <div class="BookBlock-image-hover"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.16699 2.00016C1.16699 1.63197 1.46547 1.3335 1.83366 1.3335H5.83366C6.71771 1.3335 7.56556 1.68469 8.19068 2.30981C8.8158 2.93493 9.16699 3.78277 9.16699 4.66683V14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002C7.83366 13.6465 7.69318 13.3074 7.44313 13.0574C7.19309 12.8073 6.85395 12.6668 6.50033 12.6668H1.83366C1.46547 12.6668 1.16699 12.3684 1.16699 12.0002V2.00016ZM7.83366 11.6908V4.66683C7.83366 4.1364 7.62294 3.62769 7.24787 3.25262C6.8728 2.87754 6.36409 2.66683 5.83366 2.66683H2.50033V11.3335H6.50033C6.97248 11.3335 7.43172 11.4587 7.83366 11.6908Z" fill="#555555"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.80997 2.30981C9.43509 1.68469 10.2829 1.3335 11.167 1.3335H15.167C15.5352 1.3335 15.8337 1.63197 15.8337 2.00016V12.0002C15.8337 12.3684 15.5352 12.6668 15.167 12.6668H10.5003C10.1467 12.6668 9.80756 12.8073 9.55752 13.0574C9.30747 13.3074 9.16699 13.6465 9.16699 14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002V4.66683C7.83366 3.78277 8.18485 2.93493 8.80997 2.30981ZM9.16699 11.6908C9.56893 11.4587 10.0282 11.3335 10.5003 11.3335H14.5003V2.66683H11.167C10.6366 2.66683 10.1279 2.87754 9.75278 3.25262C9.37771 3.62769 9.16699 4.1364 9.16699 4.66683V11.6908Z" fill="#555555"/></svg></div>
+                      </div>
+                      <div class="BookBlock-title"><a href="#">Samsung &amp; Tôi/ Lựa chọn &amp; thay đổi</a></div>
+                      <div class="BookBlock-rate flex justify-center"> <img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""></div>
+                      <div class="BookBlock-author">Tác giả</div>
+                    </div>
+                  </div>
+                  <div class="item"> 
+                    <div class="BookBlock vertical book">
+                      <div class="BookBlock-image"> <a href="#"><img src="./assets/images/image-book-block.png" alt=""></a>
+                        <div class="BookBlock-image-hover"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.16699 2.00016C1.16699 1.63197 1.46547 1.3335 1.83366 1.3335H5.83366C6.71771 1.3335 7.56556 1.68469 8.19068 2.30981C8.8158 2.93493 9.16699 3.78277 9.16699 4.66683V14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002C7.83366 13.6465 7.69318 13.3074 7.44313 13.0574C7.19309 12.8073 6.85395 12.6668 6.50033 12.6668H1.83366C1.46547 12.6668 1.16699 12.3684 1.16699 12.0002V2.00016ZM7.83366 11.6908V4.66683C7.83366 4.1364 7.62294 3.62769 7.24787 3.25262C6.8728 2.87754 6.36409 2.66683 5.83366 2.66683H2.50033V11.3335H6.50033C6.97248 11.3335 7.43172 11.4587 7.83366 11.6908Z" fill="#555555"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.80997 2.30981C9.43509 1.68469 10.2829 1.3335 11.167 1.3335H15.167C15.5352 1.3335 15.8337 1.63197 15.8337 2.00016V12.0002C15.8337 12.3684 15.5352 12.6668 15.167 12.6668H10.5003C10.1467 12.6668 9.80756 12.8073 9.55752 13.0574C9.30747 13.3074 9.16699 13.6465 9.16699 14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002V4.66683C7.83366 3.78277 8.18485 2.93493 8.80997 2.30981ZM9.16699 11.6908C9.56893 11.4587 10.0282 11.3335 10.5003 11.3335H14.5003V2.66683H11.167C10.6366 2.66683 10.1279 2.87754 9.75278 3.25262C9.37771 3.62769 9.16699 4.1364 9.16699 4.66683V11.6908Z" fill="#555555"/></svg></div>
+                      </div>
+                      <div class="BookBlock-title"><a href="#">Tư duy hậu Socrates: Cuộc cách mạng thay đổi tư </a></div>
+                      <div class="BookBlock-rate flex justify-center"> <img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""></div>
+                      <div class="BookBlock-author">Tác giả</div>
+                    </div>
+                  </div>
+                  <div class="item"> 
+                    <div class="BookBlock vertical book">
+                      <div class="BookBlock-image"> <a href="#"><img src="./assets/images/image-book-block-square.png" alt=""></a>
+                        <div class="BookBlock-image-hover"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.16699 2.00016C1.16699 1.63197 1.46547 1.3335 1.83366 1.3335H5.83366C6.71771 1.3335 7.56556 1.68469 8.19068 2.30981C8.8158 2.93493 9.16699 3.78277 9.16699 4.66683V14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002C7.83366 13.6465 7.69318 13.3074 7.44313 13.0574C7.19309 12.8073 6.85395 12.6668 6.50033 12.6668H1.83366C1.46547 12.6668 1.16699 12.3684 1.16699 12.0002V2.00016ZM7.83366 11.6908V4.66683C7.83366 4.1364 7.62294 3.62769 7.24787 3.25262C6.8728 2.87754 6.36409 2.66683 5.83366 2.66683H2.50033V11.3335H6.50033C6.97248 11.3335 7.43172 11.4587 7.83366 11.6908Z" fill="#555555"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.80997 2.30981C9.43509 1.68469 10.2829 1.3335 11.167 1.3335H15.167C15.5352 1.3335 15.8337 1.63197 15.8337 2.00016V12.0002C15.8337 12.3684 15.5352 12.6668 15.167 12.6668H10.5003C10.1467 12.6668 9.80756 12.8073 9.55752 13.0574C9.30747 13.3074 9.16699 13.6465 9.16699 14.0002C9.16699 14.3684 8.86852 14.6668 8.50033 14.6668C8.13213 14.6668 7.83366 14.3684 7.83366 14.0002V4.66683C7.83366 3.78277 8.18485 2.93493 8.80997 2.30981ZM9.16699 11.6908C9.56893 11.4587 10.0282 11.3335 10.5003 11.3335H14.5003V2.66683H11.167C10.6366 2.66683 10.1279 2.87754 9.75278 3.25262C9.37771 3.62769 9.16699 4.1364 9.16699 4.66683V11.6908Z" fill="#555555"/></svg></div>
+                      </div>
+                      <div class="BookBlock-title"><a href="#">Chiến lược trong đàm phán</a></div>
+                      <div class="BookBlock-rate flex justify-center"> <img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""><img src="./assets/icons/icon-star-yellow.svg" alt=""></div>
+                      <div class="BookBlock-author">Tác giả</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="layout-col right">
-            <div class="hide-on-mobile">
-              <div class="CardWithTitle">
-                <div class="CardWithTitle-header flex items-center justify-between">
-                  <div class="CardWithTitle-header-title">PHÂN LOẠI</div>
+          <div class="layout-col right hide-on-mobile">
+            <div class="CardWithTitle">
+              <div class="CardWithTitle-header flex items-center justify-between">
+                <div class="CardWithTitle-header-title">PHÂN LOẠI</div>
+              </div>
+              <div class="CardWithTitle-body"> 
+                <div class="FolderTree">
+                  <div class="FolderTree-title">Nguồn tài liệu</div>
+                  <div class="FolderTree-group"> 
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
+                        </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">NXB Công An Nhân Dân</span>
+                          <div class="FolderTree-item-badge">529</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
+                        </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">NXB Chính Trị Quốc Gia Sự Thật</span>
+                          <div class="FolderTree-item-badge">2.781</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
+                        </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">NXB Xây Dựng</span>
+                          <div class="FolderTree-item-badge">215</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
+                        </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">NXB Tri Thức</span>
+                          <div class="FolderTree-item-badge">306</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
+                        </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">NXB Y Học</span>
+                          <div class="FolderTree-item-badge">420</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
+                        </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Bản quyền mở</span>
+                          <div class="FolderTree-item-badge">19.987</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
+                        </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Bộ Công An</span>
+                          <div class="FolderTree-item-badge">4.045</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
+                        </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Tài liệu nội bộ</span>
+                          <div class="FolderTree-item-badge">4.045</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="CardWithTitle-body"> 
-                  <div class="FolderTree">
-                    <div class="FolderTree-title">Nguồn tài liệu</div>
-                    <div class="FolderTree-group"> 
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">NXB Công An Nhân Dân</span>
-                            <div class="FolderTree-item-badge">529</div>
-                          </div>
+                <div class="FolderTree">
+                  <div class="FolderTree-title">Theo chủ đề</div>
+                  <div class="FolderTree-group"> 
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
+                        </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Chính trị - Xã hội</span>
+                          <div class="FolderTree-item-badge">19.987</div>
+                        </div>
+                        <div class="FolderTree-group-item-arrow">
+                           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                      </div>
+                      <div class="FolderTree-subItems"> 
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Chính trị - Xã hội 1</span>
+                          <div class="FolderTree-item-badge">2.586</div>
+                        </div>
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Chính trị - Xã hội 2</span>
+                          <div class="FolderTree-item-badge">2.586</div>
                         </div>
                       </div>
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">NXB Chính Trị Quốc Gia Sự Thật</span>
-                            <div class="FolderTree-item-badge">2.781</div>
-                          </div>
+                    </div>
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
+                        </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Khoa học - kỹ thuật</span>
+                          <div class="FolderTree-item-badge">2.781</div>
+                        </div>
+                        <div class="FolderTree-group-item-arrow">
+                           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                      </div>
+                      <div class="FolderTree-subItems"> 
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Khoa học - kỹ thuật 1</span>
+                          <div class="FolderTree-item-badge">2.586</div>
+                        </div>
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Khoa học - kỹ thuật 2</span>
+                          <div class="FolderTree-item-badge">2.586</div>
                         </div>
                       </div>
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">NXB Xây Dựng</span>
-                            <div class="FolderTree-item-badge">215</div>
-                          </div>
+                    </div>
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
+                        </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Y học - Sức khoẻ</span>
+                          <div class="FolderTree-item-badge">19.987</div>
+                        </div>
+                        <div class="FolderTree-group-item-arrow">
+                           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                      </div>
+                      <div class="FolderTree-subItems"> 
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Y học - Sức khoẻ 1</span>
+                          <div class="FolderTree-item-badge">2.586</div>
+                        </div>
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Y học - Sức khoẻ 2</span>
+                          <div class="FolderTree-item-badge">2.586</div>
                         </div>
                       </div>
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">NXB Tri Thức</span>
-                            <div class="FolderTree-item-badge">306</div>
-                          </div>
+                    </div>
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
+                        </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Công nghệ</span>
+                          <div class="FolderTree-item-badge">306</div>
+                        </div>
+                        <div class="FolderTree-group-item-arrow">
+                           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                      </div>
+                      <div class="FolderTree-subItems"> 
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Công nghệ 1</span>
+                          <div class="FolderTree-item-badge">2.586</div>
+                        </div>
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Công nghệ 2</span>
+                          <div class="FolderTree-item-badge">2.586</div>
                         </div>
                       </div>
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">NXB Y Học</span>
-                            <div class="FolderTree-item-badge">420</div>
-                          </div>
+                    </div>
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
+                        </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Kiến trúc - Xây Dựng</span>
+                          <div class="FolderTree-item-badge">420</div>
+                        </div>
+                        <div class="FolderTree-group-item-arrow">
+                           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                      </div>
+                      <div class="FolderTree-subItems"> 
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Kiến trúc - Xây Dựng 1</span>
+                          <div class="FolderTree-item-badge">2.586</div>
+                        </div>
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Kiến trúc - Xây Dựng 2</span>
+                          <div class="FolderTree-item-badge">2.586</div>
                         </div>
                       </div>
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Bản quyền mở</span>
-                            <div class="FolderTree-item-badge">19.987</div>
-                          </div>
+                    </div>
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
+                        </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Văn học - Nghệ thuật</span>
+                          <div class="FolderTree-item-badge">19.987</div>
+                        </div>
+                        <div class="FolderTree-group-item-arrow">
+                           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                      </div>
+                      <div class="FolderTree-subItems"> 
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Văn học - Nghệ thuật 1</span>
+                          <div class="FolderTree-item-badge">2.586</div>
+                        </div>
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Văn học - Nghệ thuật 2</span>
+                          <div class="FolderTree-item-badge">2.586</div>
                         </div>
                       </div>
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Bộ Công An</span>
-                            <div class="FolderTree-item-badge">4.045</div>
-                          </div>
+                    </div>
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
+                        </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Giải trí </span>
+                          <div class="FolderTree-item-badge">4.045</div>
+                        </div>
+                        <div class="FolderTree-group-item-arrow">
+                           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                      </div>
+                      <div class="FolderTree-subItems"> 
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Giải trí  1</span>
+                          <div class="FolderTree-item-badge">2.586</div>
+                        </div>
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Giải trí  2</span>
+                          <div class="FolderTree-item-badge">2.586</div>
                         </div>
                       </div>
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Tài liệu nội bộ</span>
-                            <div class="FolderTree-item-badge">4.045</div>
-                          </div>
+                    </div>
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
+                        </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Khác</span>
+                          <div class="FolderTree-item-badge">4.045</div>
+                        </div>
+                        <div class="FolderTree-group-item-arrow">
+                           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                      </div>
+                      <div class="FolderTree-subItems"> 
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Khác 1</span>
+                          <div class="FolderTree-item-badge">2.586</div>
+                        </div>
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Khác 2</span>
+                          <div class="FolderTree-item-badge">2.586</div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="FolderTree">
-                    <div class="FolderTree-title">Theo chủ đề</div>
-                    <div class="FolderTree-group"> 
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Chính trị - Xã hội</span>
-                            <div class="FolderTree-item-badge">19.987</div>
-                          </div>
-                          <div class="FolderTree-group-item-arrow">
-                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                </div>
+                <div class="FolderTree">
+                  <div class="FolderTree-title">Theo tác giả</div>
+                  <div class="FolderTree-group"> 
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
                         </div>
-                        <div class="FolderTree-subItems"> 
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Chính trị - Xã hội 1</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Chính trị - Xã hội 2</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Tôn Thất Đại</span>
+                          <div class="FolderTree-item-badge">529</div>
+                        </div>
+                        <div class="FolderTree-group-item-arrow">
+                           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                      </div>
+                      <div class="FolderTree-subItems"> 
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Tôn Thất Đại 1</span>
+                          <div class="FolderTree-item-badge">2.586</div>
+                        </div>
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Tôn Thất Đại 2</span>
+                          <div class="FolderTree-item-badge">2.586</div>
                         </div>
                       </div>
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Khoa học - kỹ thuật</span>
-                            <div class="FolderTree-item-badge">2.781</div>
-                          </div>
-                          <div class="FolderTree-group-item-arrow">
-                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                    </div>
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
                         </div>
-                        <div class="FolderTree-subItems"> 
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Khoa học - kỹ thuật 1</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Khoa học - kỹ thuật 2</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Doãn Minh Khôi</span>
+                          <div class="FolderTree-item-badge">2.781</div>
+                        </div>
+                        <div class="FolderTree-group-item-arrow">
+                           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                      </div>
+                      <div class="FolderTree-subItems"> 
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Doãn Minh Khôi 1</span>
+                          <div class="FolderTree-item-badge">2.586</div>
+                        </div>
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Doãn Minh Khôi 2</span>
+                          <div class="FolderTree-item-badge">2.586</div>
                         </div>
                       </div>
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Y học - Sức khoẻ</span>
-                            <div class="FolderTree-item-badge">19.987</div>
-                          </div>
-                          <div class="FolderTree-group-item-arrow">
-                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                    </div>
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
                         </div>
-                        <div class="FolderTree-subItems"> 
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Y học - Sức khoẻ 1</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Y học - Sức khoẻ 2</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Lê Thúy Hoa</span>
+                          <div class="FolderTree-item-badge">215</div>
+                        </div>
+                        <div class="FolderTree-group-item-arrow">
+                           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                      </div>
+                      <div class="FolderTree-subItems"> 
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Lê Thúy Hoa 1</span>
+                          <div class="FolderTree-item-badge">2.586</div>
+                        </div>
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Lê Thúy Hoa 2</span>
+                          <div class="FolderTree-item-badge">2.586</div>
                         </div>
                       </div>
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Công nghệ</span>
-                            <div class="FolderTree-item-badge">306</div>
-                          </div>
-                          <div class="FolderTree-group-item-arrow">
-                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                    </div>
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
                         </div>
-                        <div class="FolderTree-subItems"> 
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Công nghệ 1</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Công nghệ 2</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Phan Khôi</span>
+                          <div class="FolderTree-item-badge">306</div>
+                        </div>
+                        <div class="FolderTree-group-item-arrow">
+                           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                      </div>
+                      <div class="FolderTree-subItems"> 
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Phan Khôi 1</span>
+                          <div class="FolderTree-item-badge">2.586</div>
+                        </div>
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Phan Khôi 2</span>
+                          <div class="FolderTree-item-badge">2.586</div>
                         </div>
                       </div>
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Kiến trúc - Xây Dựng</span>
-                            <div class="FolderTree-item-badge">420</div>
-                          </div>
-                          <div class="FolderTree-group-item-arrow">
-                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                    </div>
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
                         </div>
-                        <div class="FolderTree-subItems"> 
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Kiến trúc - Xây Dựng 1</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Kiến trúc - Xây Dựng 2</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Nguyễn Gia Thiều</span>
+                          <div class="FolderTree-item-badge">420</div>
+                        </div>
+                        <div class="FolderTree-group-item-arrow">
+                           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                      </div>
+                      <div class="FolderTree-subItems"> 
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Nguyễn Gia Thiều 1</span>
+                          <div class="FolderTree-item-badge">2.586</div>
+                        </div>
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Nguyễn Gia Thiều 2</span>
+                          <div class="FolderTree-item-badge">2.586</div>
                         </div>
                       </div>
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Văn học - Nghệ thuật</span>
-                            <div class="FolderTree-item-badge">19.987</div>
-                          </div>
-                          <div class="FolderTree-group-item-arrow">
-                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                    </div>
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
                         </div>
-                        <div class="FolderTree-subItems"> 
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Văn học - Nghệ thuật 1</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Văn học - Nghệ thuật 2</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Bộ Công An</span>
+                          <div class="FolderTree-item-badge">4.045</div>
+                        </div>
+                        <div class="FolderTree-group-item-arrow">
+                           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                      </div>
+                      <div class="FolderTree-subItems"> 
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Bộ Công An 1</span>
+                          <div class="FolderTree-item-badge">2.586</div>
+                        </div>
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Bộ Công An 2</span>
+                          <div class="FolderTree-item-badge">2.586</div>
                         </div>
                       </div>
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Giải trí </span>
-                            <div class="FolderTree-item-badge">4.045</div>
-                          </div>
-                          <div class="FolderTree-group-item-arrow">
-                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                    </div>
+                    <div class="FolderTree-group-item"> 
+                      <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
+                        <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
                         </div>
-                        <div class="FolderTree-subItems"> 
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Giải trí  1</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Giải trí  2</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
+                        <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Chưa xác định </span>
+                          <div class="FolderTree-item-badge">4.045</div>
                         </div>
+                        <div class="FolderTree-group-item-arrow">
+                           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
                       </div>
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Khác</span>
-                            <div class="FolderTree-item-badge">4.045</div>
-                          </div>
-                          <div class="FolderTree-group-item-arrow">
-                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                      <div class="FolderTree-subItems"> 
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Chưa xác định  1</span>
+                          <div class="FolderTree-item-badge">2.586</div>
                         </div>
-                        <div class="FolderTree-subItems"> 
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Khác 1</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Khác 2</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
+                        <div class="FolderTree-subItems-item flex items-start">
+                          <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Chưa xác định  2</span>
+                          <div class="FolderTree-item-badge">2.586</div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="FolderTree">
-                    <div class="FolderTree-title">Theo tác giả</div>
-                    <div class="FolderTree-group"> 
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Tôn Thất Đại</span>
-                            <div class="FolderTree-item-badge">529</div>
-                          </div>
-                          <div class="FolderTree-group-item-arrow">
-                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
-                        </div>
-                        <div class="FolderTree-subItems"> 
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Tôn Thất Đại 1</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Tôn Thất Đại 2</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
-                        </div>
+                  <div class="FolderTree-see-more flex items-center justify-center">
+                     Xem thêm [10 / 396]<img src="./assets/icons/icon-angle-up-down-gray.svg" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <div class="CardWithTitle">
+              <div class="CardWithTitle-header flex items-center justify-between">
+                <div class="CardWithTitle-header-title">Thống kê</div>
+              </div>
+              <div class="CardWithTitle-body"> 
+                <div class="CardInfo"> 
+                  <div class="CardInfo-row flex items-center"> 
+                    <div class="CardInfo-row-item flex items-center"> 
+                      <div class="CardInfo-row-item-icon"> <img src="./assets/icons/icon-traffic-light.svg" alt=""></div>Số thành viên: 
+                    </div>
+                    <div class="CardInfo-row-item">319234</div>
+                  </div>
+                  <div class="CardInfo-row flex items-center"> 
+                    <div class="CardInfo-row-item flex items-center"> 
+                      <div class="CardInfo-row-item-icon"> <img src="./assets/icons/icon-login.svg" alt=""></div>Đang trực tuyến: 
+                    </div>
+                    <div class="CardInfo-row-item">312</div>
+                  </div>
+                  <div class="CardInfo-row flex items-center"> 
+                    <div class="CardInfo-row-item flex items-center"> 
+                      <div class="CardInfo-row-item-icon"> <img src="./assets/icons/icon-walk.svg" alt=""></div>Khách:
+                    </div>
+                    <div class="CardInfo-row-item">15</div>
+                  </div>
+                </div>
+                <div class="CardInfo"> 
+                  <div class="CardInfo-row flex items-center"> 
+                    <div class="CardInfo-row-item flex items-center"> 
+                      <div class="CardInfo-row-item-icon"> <img src="./assets/icons/icon-book-spells.svg" alt=""></div>Số lượng sách: 
+                    </div>
+                    <div class="CardInfo-row-item">31923234</div>
+                  </div>
+                  <div class="CardInfo-row flex items-center"> 
+                    <div class="CardInfo-row-item flex items-center"> 
+                      <div class="CardInfo-row-item-icon"> <img src="./assets/icons/icon-book-reader.svg" alt=""></div>Số lượng sách mở:
+                    </div>
+                    <div class="CardInfo-row-item">81234</div>
+                  </div>
+                </div>
+                <div class="CardInfo"> 
+                  <div class="CardInfo-row flex items-center"> 
+                    <div class="CardInfo-row-item flex items-center">Thành phần cơ sở dữ liệu:</div>
+                  </div>
+                  <div class="CardInfo-chart">
+                    <div class="CardInfo-chart-image"> <img src="./assets/images/image-chart.png" alt=""></div>
+                    <div class="CardInfo-chart-info">
+                      <div class="CardInfo-chart-info-item flex items-center">
+                        <div class="CardInfo-chart-info-item-circle" style="background: #007AFF;"></div><span>Tài liệu in</span>
                       </div>
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Doãn Minh Khôi</span>
-                            <div class="FolderTree-item-badge">2.781</div>
-                          </div>
-                          <div class="FolderTree-group-item-arrow">
-                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
-                        </div>
-                        <div class="FolderTree-subItems"> 
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Doãn Minh Khôi 1</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Doãn Minh Khôi 2</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
-                        </div>
+                      <div class="CardInfo-chart-info-item flex items-center">
+                        <div class="CardInfo-chart-info-item-circle" style="background: #FB8832;"></div><span>Tài liệu nội sinh</span>
                       </div>
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Lê Thúy Hoa</span>
-                            <div class="FolderTree-item-badge">215</div>
-                          </div>
-                          <div class="FolderTree-group-item-arrow">
-                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
-                        </div>
-                        <div class="FolderTree-subItems"> 
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Lê Thúy Hoa 1</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Lê Thúy Hoa 2</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
-                        </div>
+                      <div class="CardInfo-chart-info-item flex items-center">
+                        <div class="CardInfo-chart-info-item-circle" style="background: #E6E5E6;"></div><span>Tài liệu số mã nguồn mở</span>
                       </div>
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Phan Khôi</span>
-                            <div class="FolderTree-item-badge">306</div>
-                          </div>
-                          <div class="FolderTree-group-item-arrow">
-                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
-                        </div>
-                        <div class="FolderTree-subItems"> 
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Phan Khôi 1</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Phan Khôi 2</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Nguyễn Gia Thiều</span>
-                            <div class="FolderTree-item-badge">420</div>
-                          </div>
-                          <div class="FolderTree-group-item-arrow">
-                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
-                        </div>
-                        <div class="FolderTree-subItems"> 
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Nguyễn Gia Thiều 1</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Nguyễn Gia Thiều 2</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Bộ Công An</span>
-                            <div class="FolderTree-item-badge">4.045</div>
-                          </div>
-                          <div class="FolderTree-group-item-arrow">
-                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
-                        </div>
-                        <div class="FolderTree-subItems"> 
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Bộ Công An 1</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Bộ Công An 2</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="FolderTree-group-item"> 
-                        <div class="FolderTree-group-item-label flex items-start flex-wrap justify-between">
-                          <div class="FolderTree-item-label-icon"> <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.875 8.12109H15.375L14.0859 6.85547C13.9453 6.71484 13.7578 6.62109 13.5469 6.62109H10.125C9.49219 6.62109 9 7.13672 9 7.74609V9.62109H7.125C6.49219 9.62109 6 10.1367 6 10.7461V17.4961C6 18.1289 6.49219 18.6211 7.125 18.6211H16.875C17.4844 18.6211 18 18.1289 18 17.4961V15.6211H19.875C20.4844 15.6211 21 15.1289 21 14.4961V9.24609C21 8.63672 20.4844 8.12109 19.875 8.12109ZM16.875 17.4961H7.125V10.7461H9V14.4961C9 15.1289 9.49219 15.6211 10.125 15.6211H16.875V17.4961ZM19.875 14.4961H10.125V7.74609H13.4062L14.6719 9.03516C14.8125 9.17578 15 9.24609 15.2109 9.24609H19.875V14.4961Z" fill="#323232"/></svg>
-                          </div>
-                          <div class="FolderTree-group-item-info flex items-start"><span class="FolderTree-item-label">Chưa xác định </span>
-                            <div class="FolderTree-item-badge">4.045</div>
-                          </div>
-                          <div class="FolderTree-group-item-arrow">
-                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.3335L8.70711 6.0406C8.31658 5.65008 7.68342 5.65008 7.29289 6.0406L4 9.3335" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/></svg></div>
-                        </div>
-                        <div class="FolderTree-subItems"> 
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Chưa xác định  1</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
-                          <div class="FolderTree-subItems-item flex items-start">
-                            <div class="FolderTree-subItems-item-icon"><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.27353L12 4.77353L12 8.27353H19" stroke="black" stroke-width="0.5"/></svg></div><span class="FolderTree-item-label">Chưa xác định  2</span>
-                            <div class="FolderTree-item-badge">2.586</div>
-                          </div>
-                        </div>
+                      <div class="CardInfo-chart-info-item flex items-center">
+                        <div class="CardInfo-chart-info-item-circle" style="background: #9013FE;"></div><span>Tài liệu số bản quyền</span>
                       </div>
                     </div>
-                    <div class="FolderTree-see-more flex items-center justify-center">
-                       Xem thêm [10 / 396]<img src="./assets/icons/icon-angle-up-down-gray.svg" alt=""></div>
                   </div>
                 </div>
               </div>
-              <div class="CardWithTitle">
-                <div class="CardWithTitle-header flex items-center justify-between">
-                  <div class="CardWithTitle-header-title">Thống kê</div>
-                </div>
-                <div class="CardWithTitle-body"> 
-                  <div class="CardInfo"> 
-                    <div class="CardInfo-row flex items-center"> 
-                      <div class="CardInfo-row-item flex items-center"> 
-                        <div class="CardInfo-row-item-icon"> <img src="./assets/icons/icon-traffic-light.svg" alt=""></div>Số thành viên: 
-                      </div>
-                      <div class="CardInfo-row-item">319234</div>
-                    </div>
-                    <div class="CardInfo-row flex items-center"> 
-                      <div class="CardInfo-row-item flex items-center"> 
-                        <div class="CardInfo-row-item-icon"> <img src="./assets/icons/icon-login.svg" alt=""></div>Đang trực tuyến: 
-                      </div>
-                      <div class="CardInfo-row-item">312</div>
-                    </div>
-                    <div class="CardInfo-row flex items-center"> 
-                      <div class="CardInfo-row-item flex items-center"> 
-                        <div class="CardInfo-row-item-icon"> <img src="./assets/icons/icon-walk.svg" alt=""></div>Khách:
-                      </div>
-                      <div class="CardInfo-row-item">15</div>
-                    </div>
-                  </div>
-                  <div class="CardInfo"> 
-                    <div class="CardInfo-row flex items-center"> 
-                      <div class="CardInfo-row-item flex items-center"> 
-                        <div class="CardInfo-row-item-icon"> <img src="./assets/icons/icon-book-spells.svg" alt=""></div>Số lượng sách: 
-                      </div>
-                      <div class="CardInfo-row-item">31923234</div>
-                    </div>
-                    <div class="CardInfo-row flex items-center"> 
-                      <div class="CardInfo-row-item flex items-center"> 
-                        <div class="CardInfo-row-item-icon"> <img src="./assets/icons/icon-book-reader.svg" alt=""></div>Số lượng sách mở:
-                      </div>
-                      <div class="CardInfo-row-item">81234</div>
-                    </div>
-                  </div>
-                  <div class="CardInfo"> 
-                    <div class="CardInfo-row flex items-center"> 
-                      <div class="CardInfo-row-item flex items-center">Thành phần cơ sở dữ liệu:</div>
-                    </div>
-                    <div class="CardInfo-chart">
-                      <div class="CardInfo-chart-image"> <img src="./assets/images/image-chart.png" alt=""></div>
-                      <div class="CardInfo-chart-info">
-                        <div class="CardInfo-chart-info-item flex items-center">
-                          <div class="CardInfo-chart-info-item-circle" style="background: #007AFF;"></div><span>Tài liệu in</span>
-                        </div>
-                        <div class="CardInfo-chart-info-item flex items-center">
-                          <div class="CardInfo-chart-info-item-circle" style="background: #FB8832;"></div><span>Tài liệu nội sinh</span>
-                        </div>
-                        <div class="CardInfo-chart-info-item flex items-center">
-                          <div class="CardInfo-chart-info-item-circle" style="background: #E6E5E6;"></div><span>Tài liệu số mã nguồn mở</span>
-                        </div>
-                        <div class="CardInfo-chart-info-item flex items-center">
-                          <div class="CardInfo-chart-info-item-circle" style="background: #9013FE;"></div><span>Tài liệu số bản quyền</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div><a class="Banner" href="#"><img src="./assets/images/image-banner-6.png" alt=""></a><a class="Banner" href="#"><span class="Banner-icon"> <img src="./assets/icons/icon-play-red.svg" alt=""></span><img src="./assets/images/image-banner-7.png" alt=""></a>
-            </div>
+            </div><a class="Banner" href="#"><img src="./assets/images/image-banner-6.png" alt=""></a><a class="Banner" href="#"><span class="Banner-icon"> <img src="./assets/icons/icon-play-red.svg" alt=""></span><img src="./assets/images/image-banner-7.png" alt=""></a>
           </div>
         </div>
       </div>

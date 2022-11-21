@@ -10,6 +10,7 @@ window.onload = () => {
   customAudio.init();
   modal.init();
   amount.init();
+  profileCardMenu.init();
 };
 
 const loading = {
@@ -1056,5 +1057,21 @@ const customAudio = {
         mounted();
       }
     });
+  },
+};
+
+const profileCardMenu = {
+  init: function () {
+    this.config();
+  },
+  config: function () {
+    const main = document.querySelector(".ProfileCardMobile");
+    if (main) {
+      const btn = main.querySelector(".ProfileCard-account-arrow");
+
+      btn.addEventListener("click", () => {
+        main.classList.toggle("show");
+      });
+    }
   },
 };
