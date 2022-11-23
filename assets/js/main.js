@@ -11,6 +11,7 @@ window.onload = () => {
   modal.init();
   amount.init();
   profileCardMenu.init();
+  lightGalleryJs.init();
 };
 
 const loading = {
@@ -1073,5 +1074,21 @@ const profileCardMenu = {
         main.classList.toggle("show");
       });
     }
+  },
+};
+
+const lightGalleryJs = {
+  init: function () {
+    this.config();
+  },
+  config: function () {
+    lightGallery(document.getElementById("lightgallery"), {
+      plugins: [lgThumbnail],
+      speed: 500,
+      zoom: true,
+      thumbnail: true,
+      selector: '.lightgallery-item'
+      // ... other settings
+    });
   },
 };
