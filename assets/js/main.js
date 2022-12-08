@@ -1087,7 +1087,9 @@ const lightGalleryJs = {
       speed: 500,
       zoom: true,
       thumbnail: true,
-      selector: '.lightgallery-item'
+      selector: '.lightgallery-item',
+      thumbWidth: 128,
+      thumbHeight: '128px',
       // ... other settings
     });
   },
