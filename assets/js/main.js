@@ -32,6 +32,116 @@ const owlCarousel = {
     this.setupBookDetailCarousel();
     this.setupPostCarousel();
   },
+  setupImageGalleryModalCarousel: function (
+    data,
+    currentClickIndex = 0,
+    isSetuped = false
+  ) {
+    const viewMain = document.querySelector("#ImageViewModalGallery");
+    const galleryMain = document.querySelector("#ImageGalleryModalGallery");
+    viewMain.innerHTML = "";
+    galleryMain.innerHTML = "";
+    data.forEach((item) => {
+      const elementView = document.createElement("div");
+      const elementGallery = document.createElement("div");
+      elementView.className = "ImageGalleryModal-view-item ";
+      elementGallery.className = "ImageGalleryModal-gallery-item";
+
+      elementView.innerHTML = `<img src="${item.url}" alt="" />`;
+      elementGallery.innerHTML = `<img src="${item.url}" alt="" />`;
+
+      viewMain.append(elementView);
+      galleryMain.append(elementGallery);
+    });
+
+    let currentIndexItem = currentClickIndex;
+    const textTotal = document.querySelector(
+      ".ImageGalleryModal-gallery-total"
+    );
+
+    const updateCarousel = (activeIndex) => {
+      currentIndexItem = activeIndex;
+      galleryItems.forEach((i) => i.classList.remove("active"));
+      galleryItems[activeIndex].classList.add("active");
+      textTotal.innerHTML = `Hình ảnh: ${activeIndex + 1}/${
+        galleryItems.length
+      }`;
+    };
+
+    const galleryOwl = $("#ImageGalleryModalGallery").owlCarousel({
+      responsive: {
+        0: {
+          items: 3,
+          slideBy: 3,
+        },
+        768: {
+          items: 5,
+          slideBy: 5,
+        },
+      },
+      loop: false,
+      autoplay: false,
+      smartSpeed: 300,
+      lazyLoad: true,
+      dots: false,
+      nav: false,
+      margin: 5,
+    });
+
+    const viewOwl = $("#ImageViewModalGallery").owlCarousel({
+      responsive: {
+        0: {
+          items: 1,
+          slideBy: 1,
+        },
+      },
+      loop: false,
+      autoplay: false,
+      smartSpeed: 300,
+      lazyLoad: true,
+      dots: false,
+      nav: false,
+      margin: 0,
+    });
+
+    const prevBtn = document.querySelector(".ImageGalleryModal-view-prev");
+    const nextBtn = document.querySelector(".ImageGalleryModal-view-next");
+    const galleryItems = document.querySelectorAll(
+      ".ImageGalleryModal-gallery-item"
+    );
+
+    viewOwl.on("changed.owl.carousel", (event) => {
+      const currentIndex = event.item.index;
+      galleryOwl.trigger("to.owl.carousel", currentIndex);
+      updateCarousel(
+        typeof currentIndex === "number" ? currentIndex : currentIndexItem
+      );
+    });
+
+    if (!isSetuped) {
+      prevBtn.addEventListener("click", () => {
+        if (currentIndexItem > 0) {
+          viewOwl.trigger("prev.owl.carousel", [300]);
+        }
+      });
+
+      nextBtn.addEventListener("click", () => {
+        if (currentIndexItem < galleryItems.length - 1) {
+          viewOwl.trigger("next.owl.carousel", [300]);
+        }
+      });
+    }
+
+    galleryItems.forEach((item, index) =>
+      item.addEventListener("click", () => {
+        viewOwl.trigger("to.owl.carousel", index);
+      })
+    );
+
+    galleryItems[currentIndexItem].classList.add("active");
+    textTotal.innerHTML = `Hình ảnh: ${currentIndexItem + 1}/${galleryItems.length}`;
+    viewOwl.trigger("to.owl.carousel", currentIndexItem);
+  },
   setupHomeBannerCarousel: function () {
     $("#HomeBanner-top").owlCarousel({
       responsive: {
@@ -820,8 +930,6 @@ const customAudio = {
         const audioBarList = main.querySelector(".audio-bar");
         const audioListsItem = main.querySelector(".audio-detail-lists");
 
-        console.log(audioListsItem);
-
         audioBarList.addEventListener("click", () => {
           audioBarList.classList.toggle("active");
           audioListsItem.classList.toggle("active");
@@ -1082,15 +1190,55 @@ const lightGalleryJs = {
     this.config();
   },
   config: function () {
-    lightGallery(document.getElementById("lightgallery"), {
-      plugins: [lgThumbnail],
-      speed: 500,
-      zoom: true,
-      thumbnail: true,
-      selector: '.lightgallery-item',
-      thumbWidth: 128,
-      thumbHeight: '128px',
-      // ... other settings
-    });
+    const mains = document.querySelectorAll(".lightgallery");
+    const imageGalleryModal = document.querySelector(".ImageGalleryModal");
+
+    if (imageGalleryModal) {
+      const overlay = imageGalleryModal.querySelector(
+        ".ImageGalleryModal-overlay"
+      );
+      const closeBtn = imageGalleryModal.querySelector(
+        ".ImageGalleryModal-close"
+      );
+
+      function handleCloseModal() {
+        imageGalleryModal.classList.remove("active");
+        $("#ImageGalleryModalGallery")
+          .owlCarousel({})
+          .trigger("destroy.owl.carousel");
+        $("#ImageViewModalGallery")
+          .owlCarousel({})
+          .trigger("destroy.owl.carousel");
+      }
+
+      overlay.addEventListener("click", handleCloseModal);
+      closeBtn.addEventListener("click", handleCloseModal);
+
+      mains.forEach((main) => {
+        let isSetuped = false;
+        const items = Array.from(main.querySelectorAll(".lightgallery-item"));
+        const data = items.map((item) => ({
+          url: item.dataset.src,
+        }));
+        items.forEach((item, index) =>
+          item.addEventListener("click", () => {
+            owlCarousel.setupImageGalleryModalCarousel(data, index, isSetuped);
+            isSetuped = true;
+            imageGalleryModal.classList.add("active");
+          })
+        );
+      });
+    }
+
+    // lightGallery(document.getElementById("lightgallery"), {
+    //   plugins: [lgThumbnail],
+    //   speed: 500,
+    //   zoom: true,
+    //   thumbnail: true,
+    //   selector: ".lightgallery-item",
+    //   thumbWidth: 128,
+    //   thumbHeight: "128px",
+    //   // ... other settings
+    // });
   },
 };
